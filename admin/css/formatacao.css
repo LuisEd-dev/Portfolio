@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url("../img/wallpaper.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #020016;
+}
+
+#principal {
+	width: 310px;
+	height: auto;
+	margin: auto;
+	margin-top: 50px;
+}
+
+
+label {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	margin: 5px;
+	width: 300px;
+	height: 16px;
+	float: left;
+	font-weight: bold;
+}
+
+
+.input_01 {
+	width: 300px;
+	height: 20px;
+	float: left;
+	margin: 5px;
+}
+
+.input_02 {
+	width: 300px;
+	height: 20px;
+	float: left;
+	margin: 5px;
+	background-color: #FFFFD7;
+}
+
+.select_01 {
+	width: 304px;
+	height: 24px;
+	float: left;
+	margin: 5px;
+}
+
+.select_02 {
+	width: 304px;
+	height: 24px;
+	float: left;
+	margin: 5px;
+	background-color: #FFFFD7;
+}
+
+.btn {
+	width:  308px;
+	height: 24px;
+	background-color: teal;
+	border: 0px;
+	float: left;
+	margin: 5px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.btn:hover {
+	width:  308px;
+	height: 24px;
+	background-color: rgb(37, 167, 167);
+	border: 0px;
+	float: left;
+	margin: 5px;
+	color: #FFF;
+}
+
+.textarea_01 {
+	width: 298px;
+	height: 50px;
+	float: left;
+	margin: 5px;
+}
+
+.textarea_02 {
+	width: 298px;
+	height: 50px;
+	float: left;
+	margin: 5px;
+	background-color: #FFFFD7;
+}
