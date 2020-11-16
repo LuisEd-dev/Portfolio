@@ -2,7 +2,7 @@
 
 require_once("../seguranca.php");
 require_once('../conexao/banco.php');
-    $sql = "SELECT *, date_format(ser_codigo, '%d/%m/%Y') as data_cadastro FROM tb_servicos";
+    $sql = "SELECT *, date_format(ser_data_cadastro, '%d/%m/%Y') as data_cadastro FROM tb_servicos";
     $sql = mysqli_query($con, $sql) or die ("Erro no SQL!");
 
 ?>
